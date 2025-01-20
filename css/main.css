@@ -1,0 +1,77 @@
+:root {
+    --main-padding: 20px;
+    --second-padding: 25px;
+    --main-color: #333230;
+    --second-color: #815147;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    background-color: #f3e5d8;
+    font-family: "Outfit", serif;
+    color: var(--main-color);
+}
+      
+.design {
+    background-color: #ffffff;
+    margin: 20px auto 0 auto;
+    padding: var(--main-padding);
+    width: 66%;
+    height: auto;
+    border-radius: 30px;
+}
+.design .image {
+    padding: var(--second-padding);
+}
+.design .image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+h1 {
+    margin: 0;
+    font-family: "Young Serif", serif;
+    color: var(--main-color);
+}
+h2 {
+    margin: 0;
+    font-family: "Young Serif", serif;
+    color: var(--second-color);
+}
+
+table {
+    width: 100%;
+
+}
+td {
+    border-bottom: 1px solid var(--main-color);
+    margin: 0;
+    padding: 20px;
+}
+span {
+    font-weight: bold;
+}
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.heading,
+.preparation,
+.ingredients,
+.instructions,
+.nutrition,
+.footer {
+    padding: var(--main-padding);
+
+}
+.nutrition span {
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+}
